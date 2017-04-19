@@ -29,7 +29,7 @@ Content-Type: text/html
 <p>Cliquez sur "Ajout d'un élément" dans le menu en haut  (dans la barre verte).</p>
 <p>Selon l'endroit ou vous vous situez, vous ne pourrez pas ajouter les mêmes éléments :</p>
 <ul>
-<li>Dans "<b>Présentation</b>", vous pourrez ajouter des "<b>éléments de présentation</b>" (pouvant se placer dans les boites "<b>caractéristiques</b>", "<b>finalités</b>", et "<b>contenu</b>" de cette page)</li>
+<li>Dans "<b>Présentation</b>", vous pourrez ajouter des "<b>éléments de présentation</b>" (pouvant se placer dans les boites "<b>Description</b>", "<b>Objectifs</b>", et "<b>Pré-requis</b>" de cette page)</li>
 <li>Dans "<b>Cours</b>", vous pourrez ajouter des "<b>Section/sous-section</b>" (équivalent à des parties ou chapitres), et des "<b>Page de cours</b>" (une "page de cours" = une page-écran)</li>
 <li>Dans "<b>Ressources</b>", vous pourrez ajouter des "<b>liens Web</b>", des <b>références bibliographiques</b>, et des <b>mots de glossaire</b></li>
 <li>Dans "<b>Images</b>" vous placerez toutes vos photographies et illustrations</li>
@@ -41,7 +41,7 @@ Content-Type: text/html
 <p>La première chose à faire lorsque l'on crée une page de cours, c'est d'ajouter une ligne.</p>
 <p>Sur cette ligne, on va ensuite ajouter des éléments, qui peuvent être :</p>
 <ul>
-<li>des <b>blocs de texte enrichis</b></li>
+<li>des <b>blocs de texte enrichi</b></li>
 <li>des <b>blocs sémantiques</b> (blocs portant une indication sémantique de leur contenu, permettant de les mettre en évidence )<b><br /></b></li>
 <li>des <b>lecteurs exportables </b>(bloc permettant d'intégrer dynamiquement du contenu d'un autre site, comme une vidéo, un exercice interactif, etc...)<b><br /></b></li>
 </ul>
