@@ -2,7 +2,7 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 /****
-Couleurs UNS 2011 : 
+Couleurs UNS 2011 :
 Bleu bandeau + liens : #009FDA
 boutons bleu foncé : #274090
 Gris clair (fond des pages) : #EFEFEF
@@ -10,7 +10,7 @@ Gris foncé (entetes, par dessus le fond): rgba(0, 0, 0, 0.15)
 
 Bleu "Jalon V4" : #567490
 
-Couleurs du logo : 
+Couleurs du logo :
 Bleu	#01B5E2
 Vert	#93CEBD
 Jaune	#F2CC0F
@@ -166,7 +166,7 @@ div.row {
 
 #portal-column-content {
     background-color:white;
-    border-left: 1px solid #CCCCCC;
+    /*border-left: 1px solid #CCC;*/
     padding-bottom: 2em;
 }
 
@@ -192,8 +192,7 @@ div.row {
     padding:0;
     margin-top: 1em;
     float: right;
-    
-    
+
     background-color: #005979;
 
     border-bottom-left-radius: 5px;
@@ -251,7 +250,7 @@ Fil d'Ariane
 	color: rgba(0, 0, 0, 0.75);
 
 	font-weight: bold;
-	
+
 	padding-left: 1em;
 	margin: 0;
 	margin-bottom: 1em;
@@ -395,7 +394,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     background-color: #CCC;
     border-left-color:#CCC;
 }
-    
+
 dl.portlet ul.navTree li.section-presentation,
 dl.portlet ul.navTree li.section-fichiers,
 dl.portlet ul.navTree li.section-glossaire,
@@ -561,9 +560,9 @@ body.section-cours #content p {
     padding: 0.25em 0.5em;
     text-decoration: none;
 }
-#content div.navigation ul li a:hover, 
+#content div.navigation ul li a:hover,
 #content div.selection  ul li a:hover,
-#content div.navigation ul li.selected a, 
+#content div.navigation ul li.selected a,
 #content div.selection  ul li.selected a {
     background-color: #009FDA;
     color: #FFF !important;
@@ -583,8 +582,8 @@ body.section-cours #content p {
 #content div.bloc-expositif div.contenu-bloc {
     background-color: #FFF;
     border: 1px dotted #31999A;
-    padding: 1em;  
-    margin: 0.5em 0; 
+    padding: 1em;
+    margin: 0.5em 0;
     text-align: justify;
 }
 #content div.liste-ressources {
@@ -619,7 +618,7 @@ div#content div.liste-ressources ol {
     background-position: 2px center;
     padding-left: 30px;
     line-height: 29px;
-    padding-right: 2em;    
+    padding-right: 2em;
 }
 #content div.bloc-expositif div.contenu-bloc {
     background-color: #FAFAFA;
@@ -737,10 +736,8 @@ div#collage.edit a.bouton-collage {
     padding: 0 0.25em;
     font-size: 100%;
     text-transform:capitalize;
-    
+
     border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
 }
 div#collage.edit a.bouton-collage:hover {
     background-color: #FFF !important;
@@ -809,9 +806,8 @@ div#collage.edit a.bouton-collage-modifier:before {
 }
 
 
-
 .collage-header {
-    opacity:0;-moz-opacity:0;-khtml-opacity:0;filter:alpha(opacity=0);
+    opacity:0;filter:alpha(opacity=0);
 }
 
 
@@ -820,23 +816,19 @@ div.collage-header {
     padding: 3px !important;
     border: 0;
     border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
 }
 div#collage.edit div.column-block {
     background-color: #efefef;
     margin-bottom: 0.5em;
-    
+
     border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
 }
 
 
 /*div.standard-document * {
     display: none;
 }
-div.standard-document h2, 
+div.standard-document h2,
 div.standard-document h2 *,
 div.standard-document .bloc-expositif,
 div.standard-document .bloc-expositif h2 * {
