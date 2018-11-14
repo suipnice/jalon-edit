@@ -12,9 +12,9 @@ setup(name='jalonedit.theme',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Programming Language :: Python",
+      ],
       keywords='',
       author='Bordonado Christophe (Université Nice Sophia Antipolis Service TICE)',
       author_email='tice@unice.fr',

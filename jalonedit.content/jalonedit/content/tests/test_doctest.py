@@ -1,8 +1,8 @@
 import unittest
 import doctest
 
-#from zope.testing import doctestunit
-#from zope.component import testing, eventtesting
+# from zope.testing import doctestunit
+# from zope.component import testing, eventtesting
 
 from Testing import ZopeTestCase as ztc
 
@@ -17,9 +17,11 @@ def test_suite():
             'README.txt', package='uved.content',
             test_class=base.FunctionalTestCase,
             optionflags=doctest.REPORT_ONLY_FIRST_FAILURE |
-                doctest.NORMALIZE_WHITESPACE | doctest.ELLIPSIS),
+                        doctest.NORMALIZE_WHITESPACE |
+                        doctest.ELLIPSIS),
 
-        ])
+    ])
+
 
 if __name__ == '__main__':
     unittest.main(defaultTest='test_suite')

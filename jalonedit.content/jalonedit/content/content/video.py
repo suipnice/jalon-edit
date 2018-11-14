@@ -1,21 +1,22 @@
 # -*- coding: utf-8 -*-
 
 from zope.interface import implements
-from Products.Archetypes import public as atpublic
+# from Products.Archetypes import public as atpublic
 from Products.ATContentTypes.content.document import ATDocumentBase, ATDocumentSchema
 from Products.ATContentTypes.content.base import registerATCT
 
-from jalonedit.content import contentMessageFactory as _
+# from jalonedit.content import contentMessageFactory as _
 from jalonedit.content.config import PROJECTNAME
 from jalonedit.content.interfaces import IVideo
 
-from DateTime import DateTime
+# from DateTime import DateTime
 
 
 VideoSchema = ATDocumentSchema.copy()
 
+
 class Video(ATDocumentBase):
-    """ Un document de bloc présentation pour 
+    """ Un document de bloc présentation pour
     """
 
     implements(IVideo)
@@ -27,5 +28,6 @@ class Video(ATDocumentBase):
 
     def getAffichage(self):
         return "toto titi tata"
+
 
 registerATCT(Video, PROJECTNAME)

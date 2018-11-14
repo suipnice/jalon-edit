@@ -8,13 +8,13 @@ setup(name='jalonedit.content',
       version=version,
       description="",
       long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Programming Language :: Python",
+      ],
       keywords='',
       author='Bordonado Christophe (Université Nice Sophia Antipolis Service TICE)',
       author_email='tice@unice.fr',

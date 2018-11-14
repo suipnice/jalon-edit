@@ -41,11 +41,9 @@ body.template-content_status_history div.expiration_date,
 body.template-content_status_history div.comments,
 body.template-content_status_history div.submit,
 body.template-content_status_history div.retract
-
 {
     display:none !important;
 }
-
 
 
 #contentActionMenus {
@@ -53,20 +51,13 @@ body.template-content_status_history div.retract
 }
 
 #portal-personaltools {
-    padding:0 0.25em;
+    padding:0 .25em;
 
-    border-radius:0.5em;
-    -moz-border-radius:0.5em;
-    -webkit-border-radius:0.5em;
+    border-radius:.5em;
 }
 #portal-personaltools.activated {
     border-bottom-left-radius:0;
-    -moz-border-radius-bottomleft:0;
-    -webkit-border-bottom-left-radius:0;
-    
     border-bottom-right-radius:0;
-    -moz-border-radius-bottomright:0;
-    -webkit-border-bottom-right-radius:0;
 }
 
 textarea#description {

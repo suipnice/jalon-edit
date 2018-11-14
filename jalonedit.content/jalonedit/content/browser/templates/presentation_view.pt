@@ -11,32 +11,30 @@
   <metal:content-core define-macro="content-core">
     <tal:block define="contenus view/getContenusPresentation;
                        typesContenus view/getTypesContenus;">
-    <a name="top"></a>
-    <div class="navigation">
-      <ul>
-        <li tal:repeat="key typesContenus"> 
-          <a tal:attributes="href string:${context/absolute_url}#${repeat/key/letter}"
-             tal:content="key"/>
-        </li>
-      </ul>
-    </div>
-    <tal:block repeat="key typesContenus">
-      <a tal:attributes="name repeat/key/letter"></a>
-      <div class="bloc-standard">
-          <h2 tal:content="key"/>
-          <div>
-            <tal:block repeat="texte python:contenus[key]">
-              <tal:block replace="structure texte"/>
-            </tal:block>
-          </div>
+      <div id="top" class="navigation">
+        <ul>
+          <li tal:repeat="key typesContenus">
+            <a tal:attributes="href string:${context/absolute_url}#${repeat/key/letter}"
+               tal:content="key"/>
+          </li>
+        </ul>
       </div>
-      <div class="haut-page">
-        <a tal:attributes="href string:${context/absolute_url}#top">Haut de la page</a>
-      </div>
+      <tal:block repeat="key typesContenus">
+
+        <div tal:attributes="id repeat/key/letter" class="bloc-standard">
+            <h2 tal:content="key"/>
+            <div>
+              <tal:block repeat="texte python:contenus[key]">
+                <tal:block replace="structure texte"/>
+              </tal:block>
+            </div>
+        </div>
+        <div class="haut-page">
+          <a tal:attributes="href string:${context/absolute_url}#top">Haut de la page</a>
+        </div>
+      </tal:block>
     </tal:block>
-    <div>
-    </tal:block>
-    <a href="../images/listing_image_full" style="display:none;">listing des images en taille full</a>
+    <div><a href="../images/listing_image_full" style="display:none;">listing des images en taille full</a></div>
   </metal:content-core>
 </metal:content-core>
 

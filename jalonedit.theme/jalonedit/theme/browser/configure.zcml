@@ -14,7 +14,7 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="JalonEdit Theme"
       />
-  
+
   <!-- Viewlets registration -->
   <browser:viewlet
       name="plone.path_bar"
@@ -23,8 +23,8 @@
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
-      
-    
+
+
   <browser:viewlet
       name="jalonedit.plonesitetitle"
       manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
@@ -67,7 +67,7 @@
       directory="stylesheets"
       layer=".interfaces.IThemeSpecific"
       />
-      
+
   <browser:resourceDirectory
       name="jalonedit.theme.javascripts"
       directory="javascripts"

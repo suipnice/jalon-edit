@@ -19,14 +19,14 @@
 				  'conseil',
 				  'confere',
 				  'citation',
-				  'activite']"> 
+				  'activite']">
     <dtml-in codes>
       <dtml-let code=sequence-item>
 
         #content div.bloc-expositif.bloc-<dtml-var code> h2.documentSemantique {
             background-image:url("++resource++jalonedit.theme.images/navigation/cours/<dtml-var code>.png");
         }
-           
+
       </dtml-let>
    </dtml-in>
 </dtml-let>
@@ -51,7 +51,7 @@ input#upload.context {
     display: none;
 }
 
-<dtml-let codes="['bold', 'bullist', 'code', 'fullscreen', 'image', 'italic', 'justifycenter', 'justifyfull', 'justifyleft', 'justifyright', 'link', 'numlist', 'pastetext', 'sub', 'sup', 'underline', 'unlink']"> 
+<dtml-let codes="['bold', 'bullist', 'code', 'fullscreen', 'image', 'italic', 'justifycenter', 'justifyfull', 'justifyleft', 'justifyright', 'link', 'numlist', 'pastetext', 'sub', 'sup', 'underline', 'unlink']">
     <dtml-in codes>
       <dtml-let code=sequence-item>
 
@@ -67,7 +67,7 @@ input#upload.context {
             background-position: left top !important;
             background-image:url("++resource++jalonedit.theme.images/tinymce/<dtml-var code>.png");
         }
-           
+
       </dtml-let>
    </dtml-in>
 </dtml-let>
